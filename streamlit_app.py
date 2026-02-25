@@ -109,3 +109,6 @@ if uploaded_file is not None:
 
 else:
     st.write("📎 Please upload an image to begin classification.")
+
+import os
+port = int(os.environ.get("PORT", 8501))
